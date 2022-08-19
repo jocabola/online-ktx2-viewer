@@ -1,0 +1,28 @@
+{
+	"name": "Online-KTX2-Viewer",
+	"version": "0.1.0",
+	"description": "Online Drag & Drop KTX2 Viewer built with ThreeJS.",
+	"main": "index.js",
+	"author": "Edu Prats <hello@eduprats.com>",
+	"license": "Apache-2.0",
+	"private": true,
+	"scripts": {
+		"dev": "eleventy --serve --watch",
+		"build": "ELEVENTY_ENV=production eleventy"
+	},
+	"dependencies": {
+		"@jocabola/gfx": "^0.4.79",
+		"@jocabola/io": "^0.3.56",
+		"@jocabola/math": "^0.2.42",
+		"@jocabola/phy": "^0.1.74",
+		"@jocabola/utils": "^0.1.89",
+		"three": "^0.143.0"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.2",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+		"chokidar": "^3.5.3",
+		"esbuild": "^0.15.5",
+		"esbuild-plugin-alias": "^0.2.1"
+	}
+}
